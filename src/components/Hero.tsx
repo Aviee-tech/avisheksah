@@ -32,7 +32,7 @@ const Hero = () => {
               {/* Profile Image Container */}
               <div className="relative w-52 h-52 sm:w-60 sm:h-60 lg:w-72 lg:h-72 rounded-full overflow-hidden border-4 border-white shadow-2xl group-hover:scale-105 transition-all duration-500">
                 <img
-                  src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&q=80&w=400&h=400"
+                  src="https://i.postimg.cc/FK9d9jfm/20250405-145234-1-2.jpg"
                   alt="Avishek Sah"
                   className="w-full h-full object-cover"
                 />

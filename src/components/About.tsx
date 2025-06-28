@@ -5,9 +5,9 @@ const About = () => {
   const educationData = [
     {
       level: "BTech Computer Science Engineering",
-      institution: "Currently Pursuing",
-      grade: "Excellent CGPA (First Year Completed)",
-      year: "2023 - Present",
+      institution: "National Institute of Technology",
+      grade: "Currently Pursuing",
+      year: "2024 - 2028",
       note: "Indian Government Merit Scholarship",
       icon: <Award className="w-6 h-6 text-yellow-500" />
     },
@@ -22,7 +22,7 @@ const About = () => {
       level: "Secondary Education (10th)",
       institution: "Modern English Secondary Boarding School",
       grade: "CGPA 3.95",
-      year: "2019 - 2021",
+      year: "2009 - 2021",
       icon: <GraduationCap className="w-6 h-6 text-green-500" />
     }
   ];
@@ -54,10 +54,10 @@ const About = () => {
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-6">
-              I'm currently pursuing my BTech in Computer Science Engineering on a fully funded 
-              Indian government merit scholarship, which is a testament to my academic achievements 
-              and potential. Having completed my first year with excellent grades, I'm excited to 
-              dive deeper into advanced computer science concepts.
+              I'm currently pursuing my BTech in Computer Science Engineering at the National Institute 
+              of Technology on a fully funded Indian government merit scholarship, which is a testament 
+              to my academic achievements and potential. This prestigious opportunity allows me to focus 
+              entirely on my studies and skill development.
             </p>
 
             <p className="text-gray-600 leading-relaxed">
