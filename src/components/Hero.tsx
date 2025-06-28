@@ -1,16 +1,14 @@
-
 import { ChevronDown, MapPin, Award, Code } from 'lucide-react';
-
 const Hero = () => {
   const scrollToAbout = () => {
     const element = document.querySelector('#about');
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({
+        behavior: 'smooth'
+      });
     }
   };
-
-  return (
-    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+  return <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Enhanced Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-slate-50 via-blue-50 to-teal-50"></div>
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(59,130,246,0.05),transparent_50%)]"></div>
@@ -19,7 +17,9 @@ const Hero = () => {
       {/* Floating Elements */}
       <div className="absolute top-20 left-10 w-20 h-20 bg-gradient-to-br from-teal-200 to-blue-200 rounded-full opacity-30 animate-bounce"></div>
       <div className="absolute bottom-20 right-10 w-16 h-16 bg-gradient-to-br from-blue-200 to-purple-200 rounded-full opacity-30 animate-pulse"></div>
-      <div className="absolute top-1/2 left-20 w-12 h-12 bg-gradient-to-br from-purple-200 to-pink-200 rounded-full opacity-20 animate-bounce" style={{ animationDelay: '1s' }}></div>
+      <div className="absolute top-1/2 left-20 w-12 h-12 bg-gradient-to-br from-purple-200 to-pink-200 rounded-full opacity-20 animate-bounce" style={{
+      animationDelay: '1s'
+    }}></div>
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
         <div className="text-center">
@@ -31,11 +31,7 @@ const Hero = () => {
               
               {/* Profile Image Container */}
               <div className="relative w-52 h-52 sm:w-60 sm:h-60 lg:w-72 lg:h-72 rounded-full overflow-hidden border-4 border-white shadow-2xl group-hover:scale-105 transition-all duration-500">
-                <img
-                  src="https://i.postimg.cc/FK9d9jfm/20250405-145234-1-2.jpg"
-                  alt="Avishek Sah"
-                  className="w-full h-full object-cover"
-                />
+                <img src="https://i.postimg.cc/FK9d9jfm/20250405-145234-1-2.jpg" alt="Avishek Sah" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent"></div>
               </div>
               
@@ -80,9 +76,7 @@ const Hero = () => {
                 Aspiring Computer Science Engineer
               </p>
               
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
-                Building the future through code • Currently pursuing BTech with Indian Government Merit Scholarship
-              </p>
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">Building the future through code • Currently pursuing BTech in computer science with ICCR Merit Scholarship</p>
             </div>
           </div>
 
@@ -100,27 +94,20 @@ const Hero = () => {
 
           {/* Enhanced CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
-            <button
-              onClick={scrollToAbout}
-              className="group relative px-8 py-4 bg-gradient-to-r from-teal-600 to-blue-600 text-white rounded-full font-medium shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 overflow-hidden"
-            >
+            <button onClick={scrollToAbout} className="group relative px-8 py-4 bg-gradient-to-r from-teal-600 to-blue-600 text-white rounded-full font-medium shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 overflow-hidden">
               <span className="relative z-10">Learn More About Me</span>
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </button>
-            <button
-              onClick={() => document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' })}
-              className="px-8 py-4 bg-white/80 backdrop-blur-sm text-gray-700 rounded-full font-medium shadow-lg hover:shadow-xl border-2 border-gray-200 hover:border-teal-300 hover:text-teal-600 transform hover:scale-105 transition-all duration-300"
-            >
+            <button onClick={() => document.querySelector('#contact')?.scrollIntoView({
+            behavior: 'smooth'
+          })} className="px-8 py-4 bg-white/80 backdrop-blur-sm text-gray-700 rounded-full font-medium shadow-lg hover:shadow-xl border-2 border-gray-200 hover:border-teal-300 hover:text-teal-600 transform hover:scale-105 transition-all duration-300">
               Get In Touch
             </button>
           </div>
 
           {/* Enhanced Scroll Indicator */}
           <div className="relative">
-            <button
-              onClick={scrollToAbout}
-              className="group flex flex-col items-center text-gray-400 hover:text-teal-600 transition-all duration-300"
-            >
+            <button onClick={scrollToAbout} className="group flex flex-col items-center text-gray-400 hover:text-teal-600 transition-all duration-300">
               <div className="animate-bounce group-hover:animate-pulse">
                 <ChevronDown size={32} className="mb-2" />
               </div>
@@ -131,8 +118,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
