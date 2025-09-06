@@ -2,7 +2,7 @@
 
 ## Project info
 
-![run live](https://avisheksah.vercel.app/)
+![run live]{https://avisheksah.vercel.app/}
 
 ## How can I edit this code?
 
