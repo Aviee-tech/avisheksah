@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/f6e88a64-860f-4740-a4d6-5568fee0a7c3
+![run live](https://avisheksah.vercel.app/)
 
 ## How can I edit this code?
 
