@@ -6,7 +6,7 @@ const About = () => {
     {
       level: "BTech Computer Science Engineering",
       institution: "National Institute of Technology",
-      grade: "Currently Pursuing",
+      grade: "2nd Year Student",
       year: "2024 - 2028",
       note: "Indian Government Merit Scholarship",
       icon: <Award className="w-6 h-6 text-yellow-500" />
