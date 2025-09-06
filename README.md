@@ -2,8 +2,6 @@
 
 ## Project info
 
-![run live]{https://avisheksah.vercel.app/}
-
 ## How can I edit this code?
 
 There are several ways of editing your application.
@@ -62,7 +60,7 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/f6e88a64-860f-4740-a4d6-5568fee0a7c3) and click on Share -> Publish.
+Simply open [Lovable](https://avisheksah.vercel.app/) and click on Share -> Publish.
 
 ## Can I connect a custom domain to my Lovable project?
 
