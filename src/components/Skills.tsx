@@ -7,30 +7,30 @@ const Skills = () => {
       title: "Programming Languages",
       icon: <Code className="w-8 h-8" />,
       skills: [
-        { name: "Python", level: 75, color: "from-blue-400 to-blue-600" },
-        { name: "Java", level: 70, color: "from-orange-400 to-orange-600" },
-        { name: "C/C++", level: 80, color: "from-gray-400 to-gray-600" },
-        { name: "JavaScript", level: 45, color: "from-yellow-400 to-yellow-600" },
+        { name: "Python", level: 85, color: "from-blue-400 to-blue-600" },
+        { name: "Java", level: 80, color: "from-orange-400 to-orange-600" },
+        { name: "C/C++", level: 85, color: "from-gray-400 to-gray-600" },
+        { name: "JavaScript", level: 65, color: "from-yellow-400 to-yellow-600" },
       ]
     },
     {
       title: "Data Structures & Algorithms",
       icon: <Cpu className="w-8 h-8" />,
       skills: [
-        { name: "Data Structures", level: 70, color: "from-green-400 to-green-600" },
-        { name: "Algorithms", level: 65, color: "from-purple-400 to-purple-600" },
-        { name: "Problem Solving", level: 80, color: "from-red-400 to-red-600" },
-        { name: "Competitive Programming", level: 60, color: "from-pink-400 to-pink-600" },
+        { name: "Data Structures", level: 85, color: "from-green-400 to-green-600" },
+        { name: "Algorithms", level: 80, color: "from-purple-400 to-purple-600" },
+        { name: "Problem Solving", level: 90, color: "from-red-400 to-red-600" },
+        { name: "OOP Concepts", level: 85, color: "from-pink-400 to-pink-600" },
       ]
     },
     {
       title: "Database & Web Technologies",
       icon: <Database className="w-8 h-8" />,
       skills: [
-        { name: "SQL", level: 55, color: "from-cyan-400 to-cyan-600" },
-        { name: "HTML/CSS", level: 65, color: "from-emerald-400 to-emerald-600" },
-        { name: "React Basics", level: 40, color: "from-sky-400 to-sky-600" },
-        { name: "Database Design", level: 50, color: "from-violet-400 to-violet-600" },
+        { name: "SQL", level: 70, color: "from-cyan-400 to-cyan-600" },
+        { name: "HTML/CSS", level: 80, color: "from-emerald-400 to-emerald-600" },
+        { name: "React", level: 65, color: "from-sky-400 to-sky-600" },
+        { name: "Git/GitHub", level: 75, color: "from-violet-400 to-violet-600" },
       ]
     },
     {
@@ -111,7 +111,7 @@ const Skills = () => {
                   Web Development
                 </h4>
                 <div className="flex flex-wrap gap-2">
-                  {['React', 'Node.js', 'MongoDB', 'Express.js', 'TypeScript'].map((skill, index) => (
+                  {['Node.js', 'MongoDB', 'Express.js', 'TypeScript', 'Next.js'].map((skill, index) => (
                     <span
                       key={index}
                       className="px-3 py-1 bg-white/20 text-white rounded-full text-sm font-medium backdrop-blur-sm"
@@ -128,7 +128,7 @@ const Skills = () => {
                   Advanced Topics
                 </h4>
                 <div className="flex flex-wrap gap-2">
-                  {['Machine Learning', 'Cloud Computing', 'DevOps', 'System Design', 'AI/ML'].map((skill, index) => (
+                  {['Machine Learning', 'Cloud Computing', 'Docker', 'System Design', 'Data Science'].map((skill, index) => (
                     <span
                       key={index}
                       className="px-3 py-1 bg-white/20 text-white rounded-full text-sm font-medium backdrop-blur-sm"
