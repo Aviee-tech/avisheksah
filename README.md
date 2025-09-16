@@ -1,7 +1,7 @@
 # 🌟 Personal Portfolio – Avishek Sah
 
 Welcome to the source code of my personal portfolio website.  
-This site highlights my projects, skills, and research interests as a 2nd-year Computer Science student at **NIT Meghalaya** aiming for a **PhD in AI/ML and Cloud Computing**.
+This site highlights my projects, skills, and research interests as a 2nd-year Computer Science student at **NIT Meghalaya** *.
 
 ---
 
